@@ -1,0 +1,14 @@
+#uno{
+
+
+    font-size: 24px;
+    color: brown;
+    background-color: rgb(114, 136, 136);
+    text-align: right;
+}
+
+#dos{
+
+    font:italic bold 14px Times;
+    letter-spacing: 5px;
+}
