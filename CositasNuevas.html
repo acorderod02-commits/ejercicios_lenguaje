@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de Formularios</title>
+</head>
+
+<body>
+    <h1><u>Tipos de INPUT</u></h1>
+    <form action="manejador.html" enctype="multipart/form-data" method="post">
+        USUARIO: <input type="text" name="usuario" value="user"><br>
+        CONTRASEÑA: <input type="password" name="pass"><br>
+        SOCIO: 
+        <input type="checkbox" name="socio" checked><br>
+        SEXO: 
+        <input type="radio" name="género" value="m">Masculino
+        <input type="radio" name="genero" value="f">Femenino<br>
+        TEMAS PREFERIDOS:
+        <input type="radio" name="aventuras" value="a"> Acción
+        <input type="radio" name="historica" value="h"> Histórica
+        <input type="radio" name="ficcion" value="fi"> Ficción<br>
+        DESCUENTO:
+        <input name="descuento" value="15%" size="5" readonly><br>
+        SUBIR FOTOGRAFIA: <br>
+        <input type="file" name="fichero" accept="image/*"><br>
+        <input type="hidden" name="fecha" value=""><br>
+        <input type="submit" value="enviar">
+        <input type="reset" value="reset">
+    </form>
+</body>
+
+</html>

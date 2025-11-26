@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXAMEN HTML</title>
+    <style>
+        fieldset {
+
+            border: 4px solid;
+        }
+
+        legend {
+
+            font-weight: bold;
+
+        }
+        table {
+
+           width: 100%; 
+           border: 2px solid black;
+           border-collapse: collapse;
+           background-color: #d9f6c0; 
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <table>
+        <form id="form1" action="enviar.html" method="post" name="formulario1" >
+            <tr>
+               <th align="center" colspan="3">
+                <h1>
+                    EXAMEN HTML
+                </h1>
+               </th>
+            </tr>
+
+            <tr>
+              
+                <td>
+
+                    <fieldset>
+                        <legend>Datos Personales</legend>
+                        <p><label for="nombre">Nombre:</label><br>
+                            <input type="text" id="nombre" name="nombre"><br>
+                        </p>
+
+                        <p><label for="apellidos">Apellidos:</label><br>
+                            <input type="text" id="apellidos" name="apellidos"><br>
+                        </p>
+
+                        <p><label for="fecha">Fecha Nacimiento:</label><br>
+                            <input type="date" id="fecha" name="fecha"><br>
+                        </p>
+
+                        <p><label for="usuario">Usuario:</label><br>
+                            <input type="text" id="usuario" name="usuario"><br>
+                        </p>
+                        
+                        <p><label for="contraseña">Contraseña:</label><br>
+                            <input type="password" id="contraseña" name="contraseña"><br>
+                        </p>
+
+                        <p><label for="telefono">Teléfono:</label><br>
+                            <input type="text" id="telefono" name="telefono" maxlength="9" pattern="[0-9]{9}"><br>
+                        </p>
+
+                        <p><label for="direccion">Dirección:</label><br>
+                            <input type="text" id="direccion" name="direccion"><br>
+                        </p>
+
+                        <p><label for="comentario">Comentario:</label><br>
+                            <textarea type="text" id="comentario" name="comentario" cols="40" rows="3" placeholder="Pon un comentario"></textarea><br>
+                        </p>
+                </td>
+                <!-- Columna 2: Checkboxes -->
+                <td valign="top">
+                   <fieldset>
+                    <legend>Elige 3 Instrumentos</legend>
+
+                    <p><label for="piano"></label>
+                        <input type="checkbox" name="piano" id="piano">Piano 
+                    </p>
+                    <p><label for="guitarra"></label>
+                        <input type="checkbox" name="guitarra" id="guitarra">Guitarra 
+                    </p>
+                    <p><label for="saxofon"></label>
+                        <input type="checkbox" name="saxofon" id="saxofon">Saxofón 
+                    </p>
+                    <p><label for="trompeta"></label>
+                        <input type="checkbox" name="trompeta" id="trompeta">Trompeta 
+                    </p>
+                    <p><label for="clarinete"></label>
+                        <input type="checkbox" name="clarinete" id="clarinete">Clarinete 
+                    </p>
+                    <p><label for="tuba"></label>
+                        <input type="checkbox" name="tuba" id="tuba">Tuba
+                    </p>
+                    <p><label for="flauta"></label>
+                        <input type="checkbox" name="flauta" id="flauta">Flauta
+                    </p>
+                   </fieldset>
+                </td>
+
+                <td valign="top">
+                    <fieldset>
+                        <legend>Elige tu curso</legend>
+
+                        <p><label for="primero"></label>
+                            <input type="radio" name="curso" id="primero" value="primero">1º Curso 
+                        </p>
+                        <p><label for="segundo"></label>
+                            <input type="radio" name="curso" id="segundo" value="segundo">2º Curso
+                        </p>
+                        <p><label for="tercero"></label>
+                            <input type="radio" name="curso" id="tercero" value="tercero">3º Curso 
+                        </p>
+
+
+                    </fieldset>
+                </td>
+            </tr>
+
+            <tr>
+                <td align="center">
+                    
+                </td>
+                <td align="center" colspan="2">
+                    
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <button type="submit"><img src="enviar.png"
+                        alt="boton enviar" width="50" height="50" ></button>
+                </td>
+                <td align="center">
+                    <button type="reset"><img src="reiniciar.png"alt="boton enviar" width="50" height="50"></button>
+                </td>
+            </tr>
+        </form>
+    </table>
+</body>
+
+</html>

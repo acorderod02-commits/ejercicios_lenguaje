@@ -1,0 +1,19 @@
+section p{
+    font-size: 25px;
+    color: brown;
+}
+header{
+    color: green;
+    font-size: 25px;
+}
+.pie{
+    color: blueviolet;
+    font-size: 50px
+}
+#esterojo{
+    color: red;
+}
+h1 ~ p{
+    font-size: 10px;
+    color: cyan;
+}

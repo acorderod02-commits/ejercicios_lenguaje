@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Este texto es el t&iacutetulo del documento</title>
+    <meta charset="utf-8" />
+</head>
+
+<body>
+    <form name="formulario" method="post" action="enviar.php">
+        <table width="500px">
+            <tr>
+                <td>
+                    Nombre:
+                </td>
+                <td>
+                    <input type="text" name="nombre" maxlength="50" size="25" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Apellidos:
+                </td>
+                <td>
+                    <input type="text" name="apellidos" maxlength="50" size="25" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Correo electr&oacutenico:
+                </td>
+                <td>
+                    <input type="email" name="email" maxlength="80" size="35" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Número de tel&eacutefono:
+                </td>
+                <td>
+                    <input type="tel" name="telefono" maxlength="25" size="15" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" />
+                    <small>(formato:123-456-789)</small>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Comentarios
+                </td>
+                <td>
+                    <textarea name="comentarios" maxlength="500" cols="30" rows="5"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align:center">
+                    <input type="submit" value="Enviar" />
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

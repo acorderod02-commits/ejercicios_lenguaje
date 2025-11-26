@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>INDUSTRIAS ECTREMEÑAS S.A.</h1>
+    
+    <form action="enviar.php" method="post" name="formulario1">
+        <fieldset>
+            <legend>FORMULARIO DE PEDIDO</legend>
+            <table>
+                <tr>
+                    <th colspan="2" align="left"> > Paso 1. Identificación</th>
+                </tr>
+                <tr>
+                    <td>
+                        <fieldset>
+                            <legend>Datos del cliente</legend>
+
+                            <label for="E-mail">Correo electronico</label>
+                            <input type="email">
+                            <br>
+                            <label for="Contraseña">Contraseña</label>
+                            <input type="password" minlength="6">
+                            <br>
+                            (Longuitud mínima 6 caracteres)
+                        </fieldset>
+                    </td>
+                    <td>
+                        <fieldset>
+                            <legend>Tipo de cliente</legend>
+
+                            <input type="radio" checked>Particular
+                            <br>
+                            <input type="radio"> Asociación
+                            <br>
+                            <input type="radio"> Empresa
+                        </fieldset>
+                    </td>
+                </tr>
+                <tr>
+                    <th colspan="2" align="left"> > Paso 2. Pedido</th>
+                </tr>
+                <tr>
+                    <td>
+                        <fieldset>
+
+                            <legend>Datos del Producto</legend>
+                            <label for="Aramaduras">Producto</label>
+                            <select multiple size="8">
+                                <optgroup label="Armaduras">
+                                    <option value="1">AR001 Oro Reluciente</option>
+                                    <option value="2">AR002 Plata Pulida</option>
+                                    <option value="3">AR003 Bronce Reforzado</option>
+                                </optgroup>
+                                <optgroup label="Estras">
+                                    <option value="1">ER001 Escudo</option>
+                                    <option value="2">ER002 Invisibilidad</option>
+                                </optgroup>
+                            </select>
+                        </fieldset>
+                    </td>
+                    <td>
+                        <fieldset>
+                            <legend>Información de Interés</legend>
+                            Comentarios
+                            <p><textarea name="Comentario" id="Comentario" cols="60" rows="6" placeholder="EScribe aquí tu comentario"></textarea></p>
+
+
+                            <input type="checkbox" checked>Acepto recibir Información publicitaria
+                        </fieldset>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <fieldset>
+                            <legend>Datos de envio</legend>
+
+                            <label for="Direccion">Dirección</label>
+                            <br>
+                            <input type="text">
+                            <br>
+                            <label for="Ciudad">Ciudad</label>
+                            <input type="text">
+                            <br>
+                            <label for="Ciudad">Codigo postal</label>
+                            <input type="number" maxlength="5" size="5" >
+                            </fieldset>
+                    </td>
+                    <td>
+                        <fieldset>
+                            <legend>Datos Bancarios</legend>
+
+                            <label for="Entidad">Nombre de la entidad</label>
+                            <br>
+                            <input type="text">
+                            <br>
+
+                            <label for="Cuenta">Nº de Cuenta</label>
+                            <br>
+                            <input type="text">
+                        </fieldset>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="submit"><img src="—Pngtree—send button for social media_6494778.png"
+                            alt="boton enviar" width="50" height="50"></button>
+                    </td>
+                    <td>
+                        <button type="reset"><img src="5632370.png"alt="boton enviar" width="50" height="50"></button>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>

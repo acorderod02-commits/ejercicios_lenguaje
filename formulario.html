@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primer Formulario</title>
+</head>
+<body>
+    <table border="2" align="center">
+        <tr>
+            <td>
+                <form action="manejador.html" method="post" name="formulario1">
+                    <label for="">Usuario</label>
+                    <input type="text" size="3" name="usuario">
+                <br>
+                    <label for="">Usuario</label>
+                    <input type="" size="10" maxlength="4">
+                    <label for="">Usuario</label>
+                    <input type="">
+                <br>
+                    <label for="DNI">Password</label>
+                    <input type="text" name="DNI" maxlength="9">
+                <br>
+                    <label for="password">Password</label>
+                    <input type="password" maxlength="4">
+                <br>
+                    <input type="color" name="color" id="color" value="#4d0000">
+                <br>
+                <fieldset>
+                    <legend>Comentario</legend>
+                            <label for="multilinea">Comentario:</label>
+                            <textarea name="texto" id="comentario" cols="50" rows="4" placeholder="6 7"> </textarea>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Cuestionario</legend>
+                                    <label for="coches"><strong>Selección de coches</strong></label>
+                                    <select name="sellcoches" id="coches" size="">
+                                       
+                                            <option value="0" selected disabled>Selecciona un malca canto eh cabron brrrrr</option>
+                                        <optgroup label="---Berlinas---">
+                                            <option value="1">Volvo</option>
+                                            <option value="2">Toyota</option>
+                                        </optgroup>
+                                        <optgroup label="---SUV---">
+                                            <option value="3">Renault</option> 
+                                            <option value="4" >Suzuki</option>
+                                        </optgroup>
+
+                                    </select>
+                </fieldset>  
+                <fieldset>
+                    <legend>Otro tipo de lista</legend>
+                    <label for="datos">Telefono institutos:
+                        <input type="tel" name="telefono" list="datos">
+                     </label>
+                    <datalist id="datos">
+                        <option value="927535353" label="IES Zurbarán"></option>
+                        <option value="927545454" label="IES Albalat"></option>
+                        <option value="927555555" label="IES Agustóbriga"></option>
+                    </datalist>
+                </fieldset>  
+
+
+                    <button type="submit" ><img src="—Pngtree—send button for social media_6494778.png" alt="boton enviar" width="50" height="50"></button>
+                    <input type="reset" value="reiniciar">
+                    <button type="reset">borrar</button>
+                </form>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
