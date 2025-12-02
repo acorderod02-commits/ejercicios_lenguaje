@@ -1,0 +1,27 @@
+body{
+    background-image: url(../imagenes/fondo.png);
+}
+#capitulo{
+    font: bold 48px Arial, Helvetica, sans-serif;
+    color: rgb(123, 34, 34);
+    text-align: center;
+    width: 750px;
+    margin: 60px auto;
+    padding: 25px;
+    background-color:bisque ;
+    border: 8px solid #ff0000;
+    border-radius: 20px;
+    box-shadow: black 20px 20px;
+
+}
+#texto p {
+    font: 20px Arial, Helvetica, sans-serif;
+    color: #000080;
+    text-align: justify;
+    width: 650px;
+    margin: 10px auto;
+    padding: 10px 60px;
+    background-color: #ffffff;
+    background-image: url(../imagenes/fondo_lat.png);
+    background-repeat: repeat-y;
+}

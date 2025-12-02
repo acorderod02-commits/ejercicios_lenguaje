@@ -11,4 +11,14 @@
 
     font:italic bold 14px Times;
     letter-spacing: 5px;
+    background-color: rgb(13, 13, 136, 0.2);
+}
+#cuatro p{
+    font-size: 18px;
+    color: black;
+    text-align: right;
+    width: 300px;
+    height: 150px;
+    background-color: rgb(214, 00, 10, 0.5);
+    overflow: auto;
 }
