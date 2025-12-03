@@ -7,12 +7,11 @@ body{
     text-align: center;
     width: 750px;
     margin: 60px auto;
-    padding: 25px;
-    background-color:bisque ;
+    padding: 1px 55px;
     border: 8px solid #ff0000;
-    border-radius: 20px;
-    box-shadow: black 20px 20px;
-
+    border-radius: 60px;
+    box-shadow: black -10px -10px 20px inset;
+    background: -webkit-radial-gradient(right, ellipse, red 10%, white 40%, blue 50%);
 }
 #texto p {
     font: 20px Arial, Helvetica, sans-serif;
@@ -24,4 +23,41 @@ body{
     background-color: #ffffff;
     background-image: url(../imagenes/fondo_lat.png);
     background-repeat: repeat-y;
+}
+#final{
+    width: 600px;
+    margin: 80px auto;
+    text-align: center;
+    font: bold 200px Arial, Verdana;
+    color: red;
+    text-shadow: 
+        -10px -10px 0px black,
+        10px -10px 0 black,
+        -10px 10px 0 black,
+        10px 10px 0 black;
+}
+#final2{
+    width: 600px;
+    margin: 80px auto;
+    text-align: center;
+    font: bold 200px Arial, Verdana;
+    color: red;
+    text-shadow: 0px 0px 20px rgb(166, 0, 255);
+}
+
+
+#agustobriga{
+    font-size: 18px;
+    color: white;
+    text-shadow: 0px 0px 10px rgb(0, 0, 0);
+    text-align: justify;
+    margin: 60px auto;
+    width: 500px;
+    height: 150px;
+    background-image: url(../imagenes/logo_transparente.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: rgb(255, 255, 255);
+    overflow: auto;
+    border-radius: 20px 0px 0px 20px;
 }
